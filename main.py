@@ -1,5 +1,6 @@
 import logging
 logging.basicConfig(filename='info.log', level=logging.DEBUG)
+logging.info("--------------------------------------------------------------")
 logging.info("first.py started & logging imported")
 logging.info("loglevel: DEBUG")
 
@@ -11,7 +12,7 @@ import os
 logging.info("glob & os imported")
 
 totaldata = []
-os.chdir(r"C:\Users\Markus Laaksonen\PycharmProjects\FirstOne")
+os.chdir(os.getcwd())
 for data in glob.glob("Osmosis*.xlsx"):
     totaldata.append(data)
 logging.info("Total matched files listed")
