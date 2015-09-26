@@ -50,7 +50,7 @@ for n in range(2, 10, 2):  # Ask for values for every beaker in group 1
         ws['F' + str(n)] = float(inp.replace(',', '.'))
 logging.info("Got values for group 1")
 
-print("----RESULTS FOR 2ND GROUP----")
+print("---RESULTS FOR 2ND GROUP---")
 for n in range(3, 10, 2):  # Ask for values for every beaker in group 2
     item = ws['A' + str(n)]
     inp = input("Weight of: " + str(item.value) + ": ")
@@ -59,7 +59,7 @@ for n in range(3, 10, 2):  # Ask for values for every beaker in group 2
     else:
         ws['F' + str(n)] = float(inp.replace(',', '.'))
 logging.info("Got values for group 2")
-print("----RESULT SAVED: SUCCESS----")
+print("---RESULT SAVED: SUCCESS---")
 
 logging.info("Saving file - START")
 filen, filef = file.split('.')
