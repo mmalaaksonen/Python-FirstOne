@@ -59,3 +59,27 @@ DEBUG:root:Calculated newest iteration
 INFO:root:Saving file - FINISHED
 INFO:root:Saved as new file: Osmosis Lab Raw Data_1.xlsx
 INFO:root:Old file: Osmosis Lab Raw Data_0.xlsx
+INFO:root:--------------------------------------------------------------
+INFO:root:first.py started & logging imported
+INFO:root:loglevel: DEBUG
+INFO:root:openpyxl imported
+INFO:root:glob & os imported
+INFO:root:Total matched files listed
+INFO:root:Iterations of files listed
+INFO:root:Found newest iteration of workbook
+INFO:root:Workbook "Osmosis Lab Raw Data_0.xlsx" loaded
+INFO:root:Marked first sheet as active
+INFO:root:Active sheet loaded
+INFO:root:Asking user for input/results
+INFO:root:--------------------------------------------------------------
+INFO:root:first.py started & logging imported
+INFO:root:loglevel: DEBUG
+INFO:root:openpyxl imported
+INFO:root:glob & os imported
+INFO:root:Total matched files listed
+INFO:root:Iterations of files listed
+INFO:root:Found newest iteration of workbook
+INFO:root:Workbook "Osmosis Lab Raw Data_0.xlsx" loaded
+INFO:root:Marked first sheet as active
+INFO:root:Active sheet loaded
+INFO:root:Asking user for input/results
